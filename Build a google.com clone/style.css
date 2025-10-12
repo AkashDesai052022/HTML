@@ -1,0 +1,56 @@
+body {
+    background-color: #202124;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-nav {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.head-left  li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.head-right li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.gb_E {
+    fill: white;
+}
+.gb_F {
+    fill: white;
+}
+
+.a-logo {
+    border-radius: 50%;
+    height: 45px;
+}
+
+.google-logo {
+    height: 400px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+
