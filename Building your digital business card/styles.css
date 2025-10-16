@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(175, 123, 123);
+    
+}
+
+header {
+    height: 20vh;
+    text-align: center;
+    padding: 80px;
+}
+
+main {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    border-bottom: 6px solid rgb(246, 80, 80);;
+    padding: 30px;
+    width: 580px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(236, 174, 174);;
+}
+
+.info {
+    line-height: 40px;
+}
+
+.info p {
+    font-size: 18px;
+}
