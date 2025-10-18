@@ -5,7 +5,7 @@ body {
     color: #82a5ca;
     text-align: center;
     font-family: "Orbitron", sans-serif;
-    text-shadow: 1px 1px white;
+    text-shadow: 0px 0px 4px black;
 }
 
 #hero {
@@ -52,4 +52,5 @@ h3 {
     background-color: #1C1B20;
     padding: 10px;
      cursor: pointer;
+
 }
