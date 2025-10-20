@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url('/images/temple.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    /* Adjust the opacity of the image only */
+    opacity: 0.9;
+
+    /* Push the pseudo-element behind the body's content */
+    z-index: -10;
+}
+
+/* 
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("/images/temple.jpg");
+    background-size: cover;
+    background-position: 15% 35%;
+} */
+
+header {
+    height: 40vh;
+    text-align: center;
+}
+
+
+#visit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+#Bhimashankar {
+    /* background-color: #5a8999; */
+    color: rgb(214, 82, 50);
+    text-shadow: 0px 1px 3px black;
+    width: 550px;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+#description {
+    /* background-color: #03045e; */
+    color: rgb(32, 30, 30);
+    text-shadow: 0px 0px 2px black;
+    width: 700px;
+    font-size: 25px;
+    border: none;
+    border-radius: 14px;
+}
+
+main {
+    height: 60vh;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding-top: 250px;
+}
+
+#second-heading {
+    color: rgb(214, 82, 50);
+    /* background-color: #03045e; */
+    /* width: 400px; */
+    /* text-align: center; */
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px white;
+}
+
+#three-places {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.places {
+    width: 450px;
+    height: 300px;
+    margin-top: 90px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 17px;
+    color: rgb(20, 19, 19);
+}
+
+.places:hover {
+    color: rgb(251, 245, 245);
+    /* opacity: 0.9; */
+}
+
+#malshej-ghat {
+    background-image: url("/images/malshej\ ghat.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.places h3 {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.places p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#shivneri-fort {
+    background-image: url("/images/shivneri\ fort.jpeg");
+    background-position: center;
+    background-size: cover;
+    /* color: white; */
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* -webkit-text-stroke: 2px black; */
+}
+
+#shivneri-fort:hover {
+    color: whitesmoke
+        /* -webkit-text-stroke: 2px white; */
+}
+
+
+#wildlife-sanctuary {
+    background-image: url("/images/Bhimashankar-Wildlife-Sanctuary.avif");
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+footer {
+    height: 70vh;
+    /* padding: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 150px; */
+}
+
+#card {
+    width: 400px;
+    height: 250px;
+    background-color: #b5e48c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-top: 250px;
+    border-bottom: 10px solid #1e6091;
+    border-radius: 15px;
+    border-top: 4px solid #1e6091;
+    border-right: 3px solid #1e6091;
+    border-left: 3px solid #1e6091;
+    opacity: 0.9;
+}
+
+#mine {
+    width: 150px;
+   margin-right: 20px;
+   border-radius: 20%;
+}
+
+#about {
+    line-height: 25px;
+}
+
+#about h2 {
+    margin-bottom: 10px;
+}
+
+#about h3 {
+    margin-top: 15px;
+}
